@@ -1,0 +1,175 @@
+*
+{
+ padding: 0px;
+ margin: 0px;
+}
+
+
+
+.nav-cantainer{
+    background-color: black;
+    overflow: auto;
+    
+}
+
+.a-list{
+    color: white ;
+    text-decoration: none;
+    float: left;
+    margin: 15px;
+    
+}
+
+.a-list:hover{
+    background-color:white;
+    margin: 15px;
+    color: red;
+}
+
+
+
+@keyframes myslide{
+    35%{background-image: url('imran.jpg');}
+    35%{background-image: url('inaam.jpg');}
+    30%{background-image: url('azhar.jpg');}
+}
+
+.myslide{
+    background-image: url('imran.jpg');
+    
+   /* border: 5px solid red;*/
+    padding: 600px;
+    background-repeat: no-repeat;
+    animation-name:myslide ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: step-start;
+    animation-direction: reverse;
+    
+    
+    
+}
+h4{text-align: center; font-family: "Segoe UI",Arial,sans-serif;}
+
+#h-title{
+    border: 1 solid black;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
+P{font-family: "Segoe UI",Arial,sans-serif;}
+
+.display-img{
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+   
+    
+    
+}
+
+.articsl-img{
+
+    
+    display: flex;
+    flex-direction: column;
+    float: left;
+        
+    
+
+}
+.section-img{
+    text-align: center;
+    display: block;
+    box-sizing: inherit;
+    background-color: grey;
+    padding: 0px 40px 0px 33px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer{
+    text-align: center;
+    background-color: rgb(175, 125, 125);
+    margin: 0px;
+    padding: 5px;
+}
+
+.w3-justify{
+text-align: justify!important;
+}
+
+/*about section*/
+.articsl-img-about{
+
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+.section-img-about{
+    text-align: center;
+    display: block;
+    box-sizing: inherit;
+    background-color: grey;
+    padding: 0px 40px 0px 33px;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.about-details-about{
+    border: 1px solid red;
+    display: flex;
+   border: 1px solid black;
+padding: 50px;
+   padding-top: 10px;
+   padding-bottom:10px;
+   padding-left: 350px;
+   padding-right: 300px;
+   font-family: 'Style Script', cursive;
+   text-align: center;
+   
+    
+}
+.w3-justify-about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+
+
+
+}
+
+.w3-justify-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+
+
+
+}
+
+.about-details-contact{
+    border: 1px solid red;
+    display: flex;
+   border: 1px solid black;
+padding: 50px;
+   padding-top: 10px;
+   padding-bottom:10px;
+   padding-left: 316px;
+   padding-right: 300px;
+   font-family: 'Style Script', cursive;
+   text-align: center;
+   
+    
+}
